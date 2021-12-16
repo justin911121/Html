@@ -1,0 +1,53 @@
+<html>
+    <style>
+        .site{
+            display:grid;
+            grid-template-columns:2fr 1fr 1fr;
+            grid-template-rows:auto 1fr 3fr;
+            grid-template-areas: 
+                "title title title"
+                "main header header"
+                "main sidebar footer"
+        }
+        .header{
+                grid-area: header;
+                background-color: aqua;
+            }    
+            .page-title{
+                grid-area: title;
+                background-color:blueviolet;
+            }
+            .main{
+                grid-area: main;
+                background-color:orangered;
+            }    
+            .sidebar{
+                grid-area: sidebar;
+                background-color:mediumpurple;
+            }  
+            .footer{
+                grid-area: footer;
+                background-color:green;
+            }       
+    </style>
+
+
+
+
+
+<body>
+    <div class="site">
+        <div class="header">header
+        </div>
+        <div class="page-title">page-title
+        </div>
+        <div class="main">main
+        </div>
+        <div class="sidebar">sidebar
+        </div>
+        <div class="footer">footer
+        </div>
+    </div>
+</body>
+</html>
+

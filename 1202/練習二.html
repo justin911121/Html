@@ -1,0 +1,55 @@
+<html>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:repeat(8,1fr);
+            background-color: cornflowerblue;
+            grid-template-areas:
+            "y g g"
+            "y g g"
+            "r y y"
+            "r y r"
+            "g g r"
+            "g g y"
+            "y g g"
+            "y g g"  
+        }
+        .color1{
+                grid-area: y;
+                background-color: #ffeead;            
+        }
+        .color2{
+                grid-area: g;
+                background-color: #96ceb4;            
+        }  
+        .color3{
+                grid-area: r;
+                background-color: #ff6f69;            
+        }         
+        
+    </style>
+
+
+
+
+
+<body>
+    <div class="container">
+        <div class="color1">1</div>
+        <div class="color1">2</div>
+        <div class="color2">3</div>
+        <div class="color3">4</div>
+        <div class="color1">5</div>
+        <div class="color1">6</div>
+        <div class="color1">7</div>
+        <div class="color3">8</div>
+        <div class="color2">9</div>
+        <div class="color1">10</div>
+        <div class="color1">11</div>
+        <div class="color2">12</div>
+        <div class="color1">13</div>        
+    </div>
+</body>
+</html>
+

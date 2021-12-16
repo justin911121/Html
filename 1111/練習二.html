@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border:1px solid Black;
+            }
+            table{
+                width: 30%;
+            }
+            th{
+                height:50px;
+                background-color: blue;
+                color: white;
+            }
+            caption{
+                height:30px;
+                background-color: aqua;
+            }
+            td{
+                height: 30px;
+                text-align: center;
+            }
+            td:hover{background-color: pink;}
+            td:nth-child(even){background-color: chartreuse}
+
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>表格</caption>
+            <tr>
+                <th>first name</th>
+                <th>last name </th>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td rowspan="2">Gritfin </td>
+            </tr>  
+            <tr>
+                <td>Lois</td>
+            </tr>            
+        </table>
+     
+    </body>
+    
+</html>
+    
